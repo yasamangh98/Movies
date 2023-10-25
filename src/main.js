@@ -1,0 +1,7 @@
+import { jsx as _jsx } from "react/jsx-runtime";
+import React from "react";
+import ReactDOM from "react-dom/client";
+import App from "./App";
+import { ChakraProvider } from "@chakra-ui/react";
+import theme from "./theme";
+ReactDOM.createRoot(document.getElementById("root")).render(_jsx(React.StrictMode, { children: _jsx(ChakraProvider, { theme: theme, children: _jsx(App, {}) }) }));

@@ -12,8 +12,7 @@
     "module": "ESNext",
     "moduleResolution": "Node",
     "resolveJsonModule": true,
-    "isolatedModules": true,
-    "noEmit": true,
+    "noEmit": false, // Set this to false to emit JavaScript files.
     "jsx": "react-jsx"
   },
   "include": ["src"],
